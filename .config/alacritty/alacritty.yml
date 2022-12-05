@@ -1,7 +1,13 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 
 font:
-  size: 16.0
+  normal:
+    family: CodeNewRoman NF
+  
+  size: 14.0
+  offset:
+    x: 0
+    y: 3
 
 schemes:
   afterglow: &afterglow
